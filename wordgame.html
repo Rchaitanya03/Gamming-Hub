@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub - Guess the Correct Word</title>
+    <link rel="stylesheet" href="assets/styles2.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Choose a Category</h1>
+        <div id="category-selection">
+            <button class="category-btn" onclick="startGame('animals')">Animals</button>
+            <button class="category-btn" onclick="startGame('fruits')">Fruits</button>
+            <button class="category-btn" onclick="startGame('states')">Counties</button>
+        </div>
+    </div>
+    <script>
+        function startGame(category) {
+            localStorage.setItem('selectedCategory', category);
+            window.location.href = 'game.html'; // Redirect to the game page
+        }
+    </script>
+    <button id="back-btn" onclick="window.location.href='index.html'">Back to Game Hub</button>
+</body>
+</html>

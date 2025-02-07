@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Correct Word</title>
+    <link rel="stylesheet" href="assets/styles3.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Correct Word</h1>
+        <div id="category-title"></div>
+        <div class="word-display">
+            <p id="word"></p>
+        </div>
+
+        <!-- Virtual Laptop Keyboard -->
+        <div class="keyboard-box">
+            <div class="keyboard">
+                <!-- First row of letters -->
+                <button class="key" onclick="guessLetter('a')">A</button>
+                <button class="key" onclick="guessLetter('b')">B</button>
+                <button class="key" onclick="guessLetter('c')">C</button>
+                <button class="key" onclick="guessLetter('d')">D</button>
+                <button class="key" onclick="guessLetter('e')">E</button>
+                <button class="key" onclick="guessLetter('f')">F</button>
+                <button class="key" onclick="guessLetter('g')">G</button>
+                <button class="key" onclick="guessLetter('h')">H</button>
+                <button class="key" onclick="guessLetter('i')">I</button>
+                <button class="key" onclick="guessLetter('j')">J</button>
+                <button class="key" onclick="guessLetter('k')">K</button>
+                <button class="key" onclick="guessLetter('l')">L</button>
+                <button class="key" onclick="guessLetter('m')">M</button>
+                <button class="key" onclick="guessLetter('n')">N</button>
+                <button class="key" onclick="guessLetter('o')">O</button>
+                <button class="key" onclick="guessLetter('p')">P</button>
+                <button class="key" onclick="guessLetter('q')">Q</button>
+                <button class="key" onclick="guessLetter('r')">R</button>
+                <button class="key" onclick="guessLetter('s')">S</button>
+                <button class="key" onclick="guessLetter('t')">T</button>
+                <button class="key" onclick="guessLetter('u')">U</button>
+                <button class="key" onclick="guessLetter('v')">V</button>
+                <button class="key" onclick="guessLetter('w')">W</button>
+                <button class="key" onclick="guessLetter('x')">X</button>
+                <button class="key" onclick="guessLetter('y')">Y</button>
+                <button class="key" onclick="guessLetter('z')">Z</button>
+            </div>
+            <div class="keyboard">
+                <!-- Second row of letters -->
+            </div>
+            <div class="keyboard">
+                <!-- Third row of letters -->
+
+            </div>
+        </div>
+
+        <div id="status"></div>
+        <div id="attempts">Attempts Left: 6</div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
+
+
