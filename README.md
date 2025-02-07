@@ -8,12 +8,12 @@ Games
 
 1) Tic-Tac-Toe
 
-![image alt}(https://github.com/Rchaitanya03/Gamming-Hub/blob/10d27087aabc1698a1d5575e067a4b46e12bf005/gamehubimage02.png)
+![image alt](https://github.com/Rchaitanya03/Gamming-Hub/blob/e30b803930a4772e1ee9dc336835dcaf7ac05a69/gamehubimage02.png)
 
-![image alt}(https://github.com/Rchaitanya03/Gamming-Hub/blob/10d27087aabc1698a1d5575e067a4b46e12bf005/gamehubimage03.png)
+![image alt](https://github.com/Rchaitanya03/Gamming-Hub/blob/e30b803930a4772e1ee9dc336835dcaf7ac05a69/gamehubimage03.png)
 
 2)Guess The Correct Word Game
-![image alt}(https://github.com/Rchaitanya03/Gamming-Hub/blob/10d27087aabc1698a1d5575e067a4b46e12bf005/gamehubimage04.png)
+![image alt](https://github.com/Rchaitanya03/Gamming-Hub/blob/e30b803930a4772e1ee9dc336835dcaf7ac05a69/gamehubimage04.png)
 
 ![image alt](https://github.com/Rchaitanya03/Gamming-Hub/blob/10d27087aabc1698a1d5575e067a4b46e12bf005/gamehubimage05.png)
 
